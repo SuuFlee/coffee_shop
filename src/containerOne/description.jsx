@@ -13,7 +13,7 @@ function Description() {
         </div>
           <img src='/img/stylized-cup-coffee-out-coffee-beans-flat-lay 1.png'></img>
       </div>
-      <img className='coffeeBlast' src='../img/coffee_blast.png'></img>
+      <img className='coffeeBlast' src='/img/coffee_blast.png'></img>
     </div>
   )
 }

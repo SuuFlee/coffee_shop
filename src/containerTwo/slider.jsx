@@ -32,7 +32,7 @@ function Sliderr() {
             <h1 className='SliderH'>Our coffee perfection feedback</h1>
             <p className='SliderUnderH'>Our customers has amazing things to say about us</p>
         </div>
-        <img className='FirstImg' src='../img/coffee_blast.png'></img>
+        <img className='FirstImg' src='/img/coffee_blast.png'></img>
 
 
         <div className='conMainSlider'>
@@ -50,7 +50,7 @@ function Sliderr() {
         </div>
 
 
-        <img className='SecondImg' src='../img/coffee_blast.png'></img>
+        <img className='SecondImg' src='/img/coffee_blast.png'></img>
         </div>
   )
 }

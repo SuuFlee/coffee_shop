@@ -5,10 +5,10 @@ import './des.css'
 function Argument() {
     const [activeIndex, setActiveIndex] = useState(0)
     const argumItem =[
-        {img: '../img/argum/coffee-beans.png', name: 'Supreme Beans', des: 'Beans that provides great taste'},
-        {img: '../img/argum/badge.png', name: 'High Quality', des: 'We provide the highest quality'},
-        {img: '../img/argum/coffee-cup.png', name: 'Extraordinary ', des: 'Coffee like you have never tasted'},
-        {img: '../img/argum/best-price.png', name: 'Affordable Price', des: 'Our Coffee prices are easy to afford'},
+        {img: '/img/argum/coffee-beans.png', name: 'Supreme Beans', des: 'Beans that provides great taste'},
+        {img: '/img/argum/badge.png', name: 'High Quality', des: 'We provide the highest quality'},
+        {img: '/img/argum/coffee-cup.png', name: 'Extraordinary ', des: 'Coffee like you have never tasted'},
+        {img: '/img/argum/best-price.png', name: 'Affordable Price', des: 'Our Coffee prices are easy to afford'},
 
     ]
 

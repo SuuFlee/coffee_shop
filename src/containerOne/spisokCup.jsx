@@ -3,10 +3,10 @@ import './des.css'
 
 function SpisokCup() {
     const coffeeList = [
-      {img: '../img/coffeeCup/Rectangle 7.png', name: 'Cappuccino', cofMil: 'Coffee 50% | Milk 50%', price: '$8.50'  },
-      {img: '../img/coffeeCup/Rectangle 9.png', name: 'Chai Latte', cofMil: 'Coffee 50% | Milk 50%', price: '$8.50'  },
-      {img: '../img/coffeeCup/Rectangle 11.png', name: 'Macchiato', cofMil: 'Coffee 50% | Milk 50%', price: '$8.50'  },
-      {img: '../img/coffeeCup/Rectangle 13.png', name: 'Expresso', cofMil: 'Coffee 50% | Milk 50%', price: '$8.50'  }
+      {img: '/img/coffeeCup/Rectangle 7.png', name: 'Cappuccino', cofMil: 'Coffee 50% | Milk 50%', price: '$8.50'  },
+      {img: '/img/coffeeCup/Rectangle 9.png', name: 'Chai Latte', cofMil: 'Coffee 50% | Milk 50%', price: '$8.50'  },
+      {img: '/img/coffeeCup/Rectangle 11.png', name: 'Macchiato', cofMil: 'Coffee 50% | Milk 50%', price: '$8.50'  },
+      {img: '/img/coffeeCup/Rectangle 13.png', name: 'Expresso', cofMil: 'Coffee 50% | Milk 50%', price: '$8.50'  }
     ];
     return (
       <div className='conSpis'>
@@ -24,7 +24,7 @@ function SpisokCup() {
           ))}
           </div>
           <div className='conImg'>
-            <img className='imgRight' src='../img/coffee_blast.png'></img>  
+            <img className='imgRight' src='/img/coffee_blast.png'></img>  
           </div>
       </div>
       
