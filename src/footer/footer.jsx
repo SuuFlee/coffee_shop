@@ -43,8 +43,8 @@ function Footer() {
         </div>
       </div>
 
-    <img className='imgL' src='./img/pngwing.png'/>
-    <img className='imgR' src='./img/pngwing.png'/>
+    <img className='imgL' src='/img/pngwing.png'/>
+    <img className='imgR' src='/img/pngwing.png'/>
 
       <div className='secondPeace'>
             <div className='wfwfwef'>

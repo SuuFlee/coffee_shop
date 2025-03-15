@@ -4,7 +4,7 @@
 
 .firstPeace{
     height: 374px;
-    background-image: url(./img/46.png);
+    background-image: url(/img/46.png);
     background-size: cover;
 }
 .firstGroup{
@@ -92,7 +92,7 @@
 
 
 .secondPeace{
-    background-image: url(./img/fotter.png);
+    background-image: url(/img/fotter.png);
     background-color: rgba(88,54,0,1);
     background-size: cover;
     height: 698px;

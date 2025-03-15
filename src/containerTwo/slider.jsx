@@ -5,10 +5,10 @@ function Sliderr() {
   const [current, setCurrent] = useState(0);
 
   const slider = [
-    { id: 0, name: "Jonny Thomas", dol: "Project Manager", img: "./img/Rectangle.png", des: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset....."},
-    { id: 1, name: "Jon" , dol: "Prof", img: "./img/Rectangle.png", des: "jklkjhgfhjwifwvjoiwivwoiviwivwiivwiwvio"},
-    { id: 2, name: "Kate", dol: "Proj", img: "./img/Rectangle.png", des: "wowvwivmwi"},
-    { id: 3, name: "Kate2", dol: "Proj2", img: "./img/Rectangle.png", des: "wowvwivmwi"}
+    { id: 0, name: "Jonny Thomas", dol: "Project Manager", img: "/Rectangle.png", des: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset....."},
+    { id: 1, name: "Jon" , dol: "Prof", img: "/img/Rectangle.png", des: "jklkjhgfhjwifwvjoiwivwoiviwivwiivwiwvio"},
+    { id: 2, name: "Kate", dol: "Proj", img: "/img/Rectangle.png", des: "wowvwivmwi"},
+    { id: 3, name: "Kate2", dol: "Proj2", img: "/img/Rectangle.png", des: "wowvwivmwi"}
   ]
 
   const nextPage=()=>{

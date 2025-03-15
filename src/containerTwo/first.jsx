@@ -11,8 +11,8 @@ function First() {
           <button className='blockBtn'>Order Now</button>
         </div>
       </div>
-      <img className='cup' src="./img/cup.png"></img>
-      <img className='bobi' src="./img/coffee_bean.png"></img>
+      <img className='cup' src="/img/cup.png"></img>
+      <img className='bobi' src="/img/coffee_bean.png"></img>
     </div>
   )
 }
