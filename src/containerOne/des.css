@@ -1,0 +1,209 @@
+*{
+    font-family: 'Playfair Display';
+}
+.conDes{
+    height: 570px;
+}
+.desShopH{
+    color: #603809;
+
+    font-size: 54px;
+}
+.desShopDes{
+    color: #707070;
+    font-size: 20px;
+}
+.desShopBtn{
+  background-color: #F9C06A;
+  color: black;
+}
+.desShopImg{
+    display: flex;
+    width: 70%;
+    margin: 82px auto;
+    justify-content: space-between;
+}
+.desShop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 585px;
+    gap: 30px;
+    
+    
+}
+.desShopBtn{
+    border-radius: 25px;
+    border: 0;
+    width: 140px;
+    height: 48px;
+    font-size: 16px;
+
+}
+
+.coffeeBlast{
+    transform: rotate(180deg);
+    transform: rotateY(180deg);
+    position: relative;
+    top: -200px;
+    
+}
+
+.spisokAll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.spisok{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    position: relative;
+    border: 1px solid #F9C06A6B;
+    background-color: #FFF9F1;
+    height: 340px;
+    width: 280px;
+    bottom: 80px;
+    
+}
+.spisokBtn{
+    position: absolute;
+    bottom: -24px;
+    background-color: #F9C06A;
+    color: rgba(30, 30, 30, 1);
+    width: 134px;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+}
+.spisokImg{
+    width: 280px;
+    height: auto;
+    border: none;
+}
+
+
+.spisokH{
+    color: #603809;
+    font-size: 22px;
+}
+.spisokVnutr{
+    color: black;
+    font-size: 16px;
+}
+
+.spisokPrice{
+    color: #603809;
+    font-size: 18px;
+}
+
+.spisokName{
+    color:#603809;
+    font-size: 54px;
+
+    justify-content: center;      
+}
+.spisokDess{
+    font-size: 20px;
+    justify-content: center;
+    color: #707070;
+}
+
+.conSpis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 150px;
+}
+
+.conImg{
+    width: 100%;
+    
+}
+
+.imgRight{
+    display: flex;
+    justify-self: right;
+    position: absolute;
+    right: 0px;
+    margin-top: -180px;
+    width: 500px;
+}
+
+.argumDes{
+    color: #707070;
+    font-size: 20px;
+    width: 200px;
+}
+.argumName{
+    font-size: 28px;
+    color:#603809;
+}
+
+.argumSpis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F9C06A6B;
+    background-color: #FFF9F1;
+    width: 284px;
+    height: 280px;
+
+}
+
+
+.argumAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.argumDiv{
+    gap: 32px;
+}
+.active{
+    background-color: #FFEED8;
+}
+.active:hover{
+    transition: 0.6s;
+    background-color: #FFEED8;
+}
+
+.Down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.DownP{
+    color: #707070;
+    font-size: 22px;
+}
+.DownH{
+    color: #603809;
+    font-size: 30px;
+    font-weight: 700;
+}
+.DownBtn{
+    background-color: #F9C06A;
+    color: rgba(30, 30, 30, 1);
+    width: 134px;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+@media(max-width: 1300px){
+    .spisokAll{
+        display: flex;
+        flex-direction: column;
+    }
+}

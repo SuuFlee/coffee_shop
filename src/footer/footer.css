@@ -1,0 +1,178 @@
+.all{
+    position: relative;
+}
+
+.firstPeace{
+    height: 374px;
+    background-image: url(./img/46.png);
+    background-size: cover;
+}
+.firstGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 26px;
+}
+.firstText{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.firstH{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 71.98px;
+    letter-spacing: 0%;
+
+}
+.firstDes{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+.firstGBtn{
+    display: flex;
+    align-items: center;
+    border: 1px solid #F9C06A6B;
+    border-radius: 4px;
+    position: relative;
+}
+
+.Input{
+    color: black;
+    width: 642px;
+    height: 66px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.firstBtn{
+    width: 137px;
+    height: 100%;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 6px 12px 0px #F9C06A38;
+    background: #F9C06A;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29.33px;
+    letter-spacing: 0%;
+    color: #603809;
+    z-index: 1;
+}
+
+.imgR{
+    position: absolute;
+    right: 0;
+    top: 120px;
+    transform: rotateY(180deg)
+    
+}
+
+.imgL{
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+
+
+.secondPeace{
+    background-image: url(./img/fotter.png);
+    background-color: rgba(88,54,0,1);
+    background-size: cover;
+    height: 698px;
+    width: 100%;
+}
+
+.wfwfwef{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 66px;
+
+}
+
+.secondText{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 258px;
+    color: #FFFFFF;
+    gap: 20px;
+
+}
+.textH{
+    font-family: 'Clicker Script';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 71.32px;
+    letter-spacing: 0%;
+
+}
+.textDes{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    width: 380px;
+
+}
+
+.icone{
+    display: flex;
+    gap: 20px;
+
+}
+
+.footerMainSpis{
+    display: flex;
+    justify-content: space-between;
+    gap: 66px;
+}
+
+
+
+.footerSpisEl{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactUs{
+    width: 322px;
+}
+.footerSpis{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.elH{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34.66px;
+    letter-spacing: 0%;
+}
+.elThree{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    letter-spacing: 0%;
+}

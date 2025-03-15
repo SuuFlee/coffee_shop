@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display';
+  }
+button{
+  cursor: pointer;
+  font-weight: 700;
+}
+  header {
+    background-image: url(/img/coffee_image.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    padding: 20px;
+  
+  }
+  .wrapper{
+    width: 1650px;
+    margin: 0 auto;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12%;
+    width: 100%;
+  
+  }
+  
+  .nameTitle{
+    font-family: 'Clicker Script';
+    font-size: 35px;
+  }
+  
+  .navCen{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .nav-item {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+  
+  @media(max-width: 1300px){
+    .navCen{
+      display: none;
+    }
+    .menu-icon {
+      display: block;
+      position: absolute;
+      margin-top: 5px;
+      top: 0;
+      right: 0;
+      font-size: 1.8rem;
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+      background-color: #F9C06A;
+    }
+    .nav-menu.active {
+      background: #242222;
+      left: 0;
+      opacity: 1;
+      z-index: 1;
+      padding-left: 0px;
+    }
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 60vh;
+      position: absolute;
+      top: 60px;
+      left: -180%;
+      opacity: 1;
+    }
+    .nameTitle {
+      top: 0;
+      left: -75px;
+    }
+    .fa-times {
+      color: #ffffff;
+      font-size: 2rem;
+    }
+  }
+
+  .signUp{
+    border-radius: 24px;
+    background-color: #F9C06A;
+    padding: 15px 27px;
+    color: black;
+    box-shadow: 0px 6px 12px #F9C06A38;
+  }
+  .signIn{
+    text-decoration: underline;
+  }
+  .sign{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  ul{
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .cenText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+  
+  .coffee{
+    font-family: 'Clicker Script';
+    font-size: 220px;
+  }
+  .tiunco{
+    font-family: 'Playfair Display';
+    font-size: 22px;
+  }
+  .descriptionStart{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    width: 530px;
+    margin-bottom: 1%;
+    line-height: 36px;
+  }
+  .btnOrder{
+    border: solid 0;
+    font-family: 'Playfair Display';
+    border-radius: 24px;
+    background-color: #F9C06A;
+    padding: 14px 26px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 6px 12px #F9C06A38;
+  }
+  
