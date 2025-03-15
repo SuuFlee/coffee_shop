@@ -9,7 +9,7 @@ function Footer() {
 
     const [res, setRes] = useState()
     
-
+    console.log(SERVICE_ID,TEMPLATE_ID,PUBLIC_KEY)
 
     const handleOnSubmit = (e) => {
         console.log(res)
